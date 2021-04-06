@@ -27,3 +27,17 @@
 | Action                         |             |              |              |                 |
 | 1. Accept                      |             |              |              | /               |
 | 2. Reject                      | /           | /            | /            |                 | 
+
+Based on the finite automata, a c++ program is build to design a Deterministic Finite Automata (DFA) that accept the language L = {t^N | N ≥ 1}.
+The regular language L is {t, tt, ttt, tttt…, }.
+If the string input by the user follows the given language L, then the program will print “Accepted”. Otherwise, the program will print “Rejected”.
+
+Examples:
+
+Input: S = “tft”
+Output: Rejected
+Explanation: String must only contain t.
+
+Input: S = “tt”
+Output: Accepted
+
