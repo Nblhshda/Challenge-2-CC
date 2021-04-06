@@ -34,7 +34,7 @@
 
 ## Examples:
 
-      Input: S = “tft”
+      Input: S = “ttf”
       Output: Rejected
       Explanation: String must only contain t.
 
