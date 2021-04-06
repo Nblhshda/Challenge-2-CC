@@ -15,7 +15,7 @@
   𝐿
   𝑟𝑒𝑗𝑒𝑐𝑡 = {𝐹, 𝑇𝐹, 𝑇𝑇𝐹}
 
-
+![alt text](https://github.com/[Nblhshda]/[Challenge-2-CC]/blob/[main]/cc1.png?raw=true)
 
 ## State transition table
 
