@@ -9,7 +9,7 @@ using namespace std;
 // S satisfy the given DFA or not
 void isAcceptedDFA(string s, int N)
 {
-	// Stores the count of characters
+	// Stores the count of chracters
 	int count = 0;
 
 	// Iterate over the range [0, N]
@@ -35,9 +35,15 @@ void isAcceptedDFA(string s, int N)
 // Driver Code
 int main()
 {
+	char c;
 	string S;
-	cout << "Input string of condition (t/f): ";
-	cin >> S;
+	
+	for(int i=1; i<4; i++){
+	
+	cout << "Input condition "<<i<<" (t/f): ";
+	cin >> c;
+	S += c;
+	}
 
 	// Function Call
 	isAcceptedDFA(S, S.size());
